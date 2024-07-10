@@ -72,6 +72,89 @@
   border-radius: 8px;
 }
 
+/* why-development section */
+
+.why-development {
+  width: 79.67%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.why-development-text {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.why-development-text h2 {
+  font-size: 32px;
+  font-weight: 800;
+  text-align: left;
+}
+
+.why-development-text p {
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+.btn-secondary {
+  width: 150px;
+  height: 48px;
+  border: 1px solid;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 10px;
+  background-color: white;
+  text-decoration: none;
+}
+
+.btn-secondary a {
+  text-decoration: none;
+}
+
+.wd-section-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.wd-section-1-text {
+  width: 50%;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  column-gap: 5px;
+}
+
+.wd-section-1-text {
+  opacity: 0.7;
+  font-size: 16px;
+}
+
+.wd-section-1-image {
+  width: 50%;
+  width: 259.56px;
+  height: 217.01px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 
 
 /* skill section here */
@@ -172,4 +255,37 @@
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+}
+
+/* footer section */
+
+.footer-section-container {
+  background-color: #f7f8f8;
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-section-text {
+  background-color: #fff;
+  font-weight: 200;
+  font: 16px;
+}
+
+.footer-section-link ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-section-link ul li {
+  list-style: none;
+}
+
+.footer-section-link ul li a {
+  text-decoration: none;
 }
