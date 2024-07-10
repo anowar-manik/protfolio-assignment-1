@@ -97,4 +97,20 @@
 }
 /* skill section here */
 
+/* inspiron section */
+.inspiration h1 {
+  text-align: center;
+  margin-top: 30px;
+}
 
+.inspiration p{
+  text-align: center;
+  margin-top: 15px;
+}
+.y-video{
+  display: block;
+  margin: 0 auto;
+
+  margin-top: 15px;
+
+}
