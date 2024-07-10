@@ -137,3 +137,23 @@
   font-weight: 400;
   line-height: 20px;
 }
+
+
+.footer-container{
+  border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.03);
+width: 100%;
+margin-top: 50px;
+
+
+}
+
+.content{
+text-align: left;
+margin-left: 150px;
+}
+.cont-link{
+  display: flex;
+  justify-content: space-around;
+}
